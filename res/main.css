@@ -3,6 +3,10 @@ body {
 	font-family: 'Capriola', sans-serif;
 }
 
+.topnav {
+	border-radius: 25px 25px 0px 0px;
+}
+
 .logo {
 	display: inline;
 	float: right;
@@ -28,6 +32,7 @@ body {
 	display: center;
 	background: #999;
 	font-weight: bold;
+	border-radius: 20px 5px 20px 20px;
 }
 
 .navbar a:hover {
@@ -74,4 +79,5 @@ body {
     margin-top: 20px;
     background: #eee;
     box-shadow: 0px 5px 5px #888;
+	border-radius: 25px;
 }
