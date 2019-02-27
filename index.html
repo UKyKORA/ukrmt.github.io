@@ -20,7 +20,25 @@
 
  <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+	<style>
+	.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  height: 100px;
+}
+ 
+.sponsor-logo {
+	width: 30%;
+	padding-left: 5%;
+	padding-right: 5%;
+	display: inline;
+	
+}
+	</style>
   </head>
 
   <body>
@@ -28,7 +46,8 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
       <div class="container">
-        <a class="navbar-brand" href="#">UK Robotic Mining Team - KATS</a>
+		<a href="#" class="navbar-left"><img width="42" style="padding-right: 10px;" src="res/kats-small.png"></a>
+	  <a class="navbar-brand" href="#">UK Robotic Mining Team - KATS</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -40,16 +59,16 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://www.nasa.gov/offices/education/centers/kennedy/technology/nasarmc.html">The Comptetition</a>
+              <a class="nav-link" href="https://www.nasa.gov/offices/education/centers/kennedy/technology/nasarmc.html">Comptetition Homepage</a>
             </li>
 	    <li class="nav-item">
               <a class="nav-link" href="https://www.nasa.gov/sites/default/files/atoms/files/rmc2019_registrationrulesrubrics_09062018.pdf">Comptetition Rubric</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="http://github.com/ukrmt">Project GitHub</a>
+              <a class="nav-link" href="http://github.com/ukrmt">Our GitHub</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://uky.campuslabs.com/engage/organization/robotic-mining-team-at-the-university-of-kentucky">University Club Page</a>
+              <a class="nav-link" href="https://uky.campuslabs.com/engage/organization/robotic-mining-team-at-the-university-of-kentucky">UK Club Page</a>
             </li>
           </ul>
         </div>
@@ -59,14 +78,117 @@
     <!-- Page Content -->
     <div class="container">
       <div class="row">
-        <div class="col-lg-12 text-center">
-          <h1 class="mt-5">A Template for our Team!</h1>
-          <p class="lead">Complete with pre-defined file paths and responsive navigation!</p>
-          <img src="res/kats-small.png"/>
+        <div class="col-lg">
+          <h1 class="mt-5">Who We Are</h1>
+          <p class="lead">We are a University of Kentucky student organization dedicated to STEM involvement of the student body.</p>
+          <img src="res/IMG_2890.JPG" class="img-fluid rounded mx-auto d-block"/>
+        </div>
+		
+		<div class="col-lg">
+          <h1 class="mt-5">What We Do</h1>
+          <p class="lead">	Design and develop a robotic mining vehicle to compete at NASA's annual robotic mining competition hosted at Kennedy Space Center.</p>
+          <img src="res/roverRender.png" class="img-fluid rounded mx-auto d-block"/>
+        </div>
+		
+		<div class="col-lg">
+          <h1 class="mt-5">The Competition</h1>
+          <p class="lead">Wireless robots are given 10 minute trials to mine as much simulated Mars dirt as possible. Judged on amount of dirt mined, network throughput and level of autonomy achieved while mining.</p>
+          <img src="res/maxresdefault.jpg" class="img-fluid rounded mx-auto d-block	"/>
         </div>
       </div>
     </div>
 
+	<!-- Footer -->
+<footer class="page-bottom">
+
+  <!-- Footer Elements -->
+  <div class="container">
+	<h1 class="mt-5">Our Sponsors</h1>
+	<hr>
+    <!--Grid row-->
+    <div class="row">
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-5 mb-4">
+
+        <!--Image-->
+        <div class="view overlay z-depth-1-half">
+          <img src="res/NASAKY2.png" class="img-fluid"alt="">
+          <a href="">
+            <div class="mask rgba-white-light"></div>
+          </a>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-5 mb-4">
+
+        <!--Image-->
+        <div class="view overlay z-depth-1-half">
+          <img src="res/UKCOE.jpg" class="img-fluid" alt="">
+          <a href="">
+            <div class="mask rgba-white-light"></div>
+          </a>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-5 mb-4">
+
+        <!--Image-->
+        <div class="view overlay z-depth-1-half">
+          <img src="res/Firgelli-Logo-1.png" class="img-fluid" alt="">
+          <a href="">
+            <div class="mask rgba-white-light"></div>
+          </a>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-5 mb-4">
+
+        <!--Image-->
+        <div class="view overlay z-depth-1-half">
+          <img src="res/IMI-Logo.png" class="img-fluid" alt="">
+          <a href="">
+            <div class="mask rgba-white-light"></div>
+          </a>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-5 mb-4">
+
+        <!--Image-->
+        <div class="view overlay z-depth-1-half">
+          <img src="res/Misumi_BIG.jpg" class="img-fluid" alt="">
+          <a href="">
+            <div class="mask rgba-white-light"></div>
+          </a>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+    </div>
+    <!--Grid row-->
+
+  </div>
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+	
  <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
